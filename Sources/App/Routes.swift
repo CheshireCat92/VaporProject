@@ -21,5 +21,9 @@ final class Routes: RouteCollection {
             return req.description
         }
         
+        builder.get("lang") { req in
+            return req.lang
+        }
+        
     }
 }
